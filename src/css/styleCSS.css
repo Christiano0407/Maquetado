@@ -12,7 +12,7 @@ html{
 }
 a{
     text-decoration: none;
-  /*   list-style: none; */
+   /*  list-style: none;  */
 }
 img {
     background-repeat: no-repeat;
@@ -23,5 +23,40 @@ img {
 body {
     width: 100%;
     height: 100vh;
-    font-family: sans-serif;
+    font-family: museo-sans,sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
+.main-nav{
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+    background-color: #aaaaaa;
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: var(--color-one);
+    padding: .5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+    /* //Pseudo-clases */
+.main-nav__item a:hover {
+    color: var(--color-Two);
+}
+/* .main-nav__item a:active {
+    text-transform: lowercase; 
+} */
+
+   /* //Pseudo-elementos */
+   .main-nav__item a::after {
+       content: " | ";
+   }
+   .main-nav__item a::before {
+      content: ":";
+   }
