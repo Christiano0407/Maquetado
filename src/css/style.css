@@ -17,3 +17,9 @@ body {
 a {
     text-decoration: none;
 }
+img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
