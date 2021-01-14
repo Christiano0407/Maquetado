@@ -60,3 +60,25 @@ body {
    .main-nav__item a::before {
       content: ":";
    }
+
+   /* // One*/
+  /*  .demo p{
+       font-size: 3.2rem;
+   }
+   .demo p::before {
+       content: "This is before";
+       margin-right: 1rem;
+       font-weight: bold;
+       text-transform: uppercase;
+   }
+   .demo p::after {
+       content: "I am the after...";
+       margin-left: 1rem;
+       text-transform: lowercase;
+   }
+   .demo p:hover::before, 
+   .demo p:hover::after {
+       color: red;
+   } */
+
+   /* //TWO */
