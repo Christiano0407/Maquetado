@@ -26,8 +26,9 @@ body {
     font-family: museo-sans,sans-serif;
     font-weight: 300;
     font-style: normal;
+    
 }
-.main-nav{
+/* .main-nav{
     margin-top: 1rem;
     list-style: none;
     padding-left: 0;
@@ -43,24 +44,24 @@ body {
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
-}
+} */
 
     /* //Pseudo-clases */
-.main-nav__item a:hover {
+/* .main-nav__item a:hover {
     color: var(--color-Two);
-}
+} */
 /* .main-nav__item a:active {
     text-transform: lowercase; 
 } */
 
    /* //Pseudo-elementos */
-   .main-nav__item a::after {
+  /*  .main-nav__item a::after {
        content: " | ";
    }
    .main-nav__item a::before {
       content: ":";
    }
-
+ */
    /* // One*/
   /*  .demo p{
        font-size: 3.2rem;
@@ -82,16 +83,16 @@ body {
    } */
 
    /* //TWO */
-   .demo-link {
-       font-size: 2.5rem;
+    .demo-link {
+       font-size: 2rem;
        text-decoration: none;
-       color: red;
+       color: white;
        display: inline-block;
        font-weight: bold;
        -webkit-font-smoothing: antialiased;
        cursor: pointer;
        position: relative;
-   }
+   } 
    /* .demo-link::before {
     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
     margin-right: 1rem;
@@ -102,6 +103,7 @@ body {
     margin-left: 1rem;
    } */
 
+  /*  //
    .demo-link::before {
    content: "";
    width: 100%;
@@ -111,6 +113,7 @@ body {
    top: 0;
    left: 0;
    transform: scale(0);
+   transform-origin: right;
    transition: transform .5s;
    }
 
@@ -123,10 +126,31 @@ body {
     bottom: 0;
     left: 0;
     transform: scale(0);
+    transform-origin: left;
     transition: transform .5s;
    }
 
    .demo-link:hover::before,
    .demo-link:hover::after {
        transform: scale(1);
+   } */
+
+   /* Overlays and Images */
+
+   body {
+       position: relative;
+       background-image: url("http://source.unsplash.com/random");
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+   }
+   body::before {
+       content: "";
+       width: 100%;
+       height: inherit;
+       background-color: rgba(0, 0, 0, .5);
+       top: 0;
+       left: 0;
+       position: absolute;
+       z-index: -1;
    }
