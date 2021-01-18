@@ -1,3 +1,8 @@
+:root{
+    --color-one: #ffffff; 
+    --color-Two: #000000; 
+    --font:1.6rem;
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +10,6 @@
 }
 html{
     font-size: 62.5%
-}
-:root{
-    --color-one: #ffffff; 
-    --color-Two: #000000; 
 }
 a{
     text-decoration: none;
@@ -20,14 +21,29 @@ img {
     object-fit: cover;
     background-position: center;
 }
+/* header {
+    width: 100vw;
+    height: 15vh;
+    background-color: #000000;
+} */
 body {
     width: 100%;
     height: 100vh;
     font-family: museo-sans,sans-serif;
     font-weight: 300;
     font-style: normal;
-    
+    background-color: #e0e0e0;
 }
+/* main {
+    width: 100vw;
+    height: 70vh;
+    background-color: aqua;
+}
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: #000000;
+} */
 /* .Nav {
     display: flex;
     justify-content: space-evenly;
