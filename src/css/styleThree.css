@@ -28,3 +28,33 @@ body {
     font-style: normal;
     
 }
+/* .Nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .parent {
+display: inline-block;
+border: .2rem black dotted;
+}
+.box {
+    background-color: red;
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+}
+#two {
+  background-color: blueviolet;
+ 
+}
+#three {
+  background-color: chartreuse;
+}
+#four {
+  background-color: cyan;
+}  */
