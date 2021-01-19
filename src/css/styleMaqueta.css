@@ -61,9 +61,10 @@ ul li a {
     cursor: pointer;
 }
 ul li a:hover {
- color: var(--color-one);
+ color: #e7e7e7;
+ border-bottom: .1rem solid #000000;
 }
-/*   a::before {
+  /*   li a::before {
     content: "";
     width: 100%;
     height: .2rem;
@@ -75,7 +76,7 @@ ul li a:hover {
     transform-origin: right;
     transition: transform .5s;
    }
-  a::after {
+    li a::after {
     content: "";
     width: 100%;
     height: .2rem;
@@ -87,16 +88,20 @@ ul li a:hover {
     transform-origin: left;
     transition: transform .5s;
    }
-    a:hover::before,
-    a:hover::after {
+    li a:hover::before,
+    li a:hover::after {
     transform: scale(1);
-   }  */
+   }   */
 
-a i:hover {
+    a i:hover {
     /* color: var(--color-one); */
     background-color: #ddddddd2;
     border-radius: 1rem;
     padding: .5rem;
+}
+
+ul li img {
+    border-radius: 2rem;
 }
 /* 
 footer {
