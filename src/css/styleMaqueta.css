@@ -23,8 +23,45 @@ img {
     object-fit: cover;
     background-position: center;
 }
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--color-one);
+  /*   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr; */
+}
+
 body {
+    width: 100%;
+    height: 100vh;
     font-family: museo-sans,sans-serif;
     font-weight: 300;
     font-style: normal;
 }
+header nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: .2rem;
+    height: 6vh;
+
+}
+header  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-column: 2;
+    margin: 1rem;
+}
+ul li a {
+    font-size: var(--font);
+    font-weight: bold;
+    color: var(--color-Two);
+    cursor: pointer;
+}
+ul li a:hover {
+ color: var(--color-one);
+}
+
+
