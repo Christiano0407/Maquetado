@@ -36,8 +36,9 @@ html {
 }
 a {
     text-decoration: none;
+    display: inline-block; 
 }
-ul, li {
+ul {
     list-style: none;
 }
 img {
@@ -46,7 +47,7 @@ img {
   object-fit: cover;
   background-position:center;
   max-width:100%;
-  
+
 }
 body {
     width: 100%;
@@ -54,4 +55,37 @@ body {
     font-family: moniker,sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: aqua;
+}
+.hero {
+    background-image: url(../assets/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-header {
+    height: 8rem;
+    padding: 0 2.4rem;
+}
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+.main-nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 12.4rem;
+}
+.nav-list {
+    display: none;
+}
+.nav-items-right {
+    display: flex;
+    align-items: center;
+}
+.btn:hover {
+    box-shadow: 0 .8rem 1.5rem rgba(0, 0, 0,.2);
 }
