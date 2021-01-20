@@ -205,3 +205,7 @@ body {
  .wave-invert {
      transform: matrix(1, 0, 0, -1, 0, 0);
  }
+
+ .video-call {
+     background-color: var(--off-white-clr);
+ }
