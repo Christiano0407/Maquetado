@@ -89,3 +89,73 @@ body {
 .btn:hover {
     box-shadow: 0 .8rem 1.5rem rgba(0, 0, 0,.2);
 }
+.btn-small {
+    font-size: 1.4rem;
+    padding: .7rem 1.6rem;
+    border-radius: 4rem;
+}
+.btn-light {
+    background-color: var(--color-one);
+    color: var(--dark-clr);
+}
+.btn-light:hover {
+    color: var(--brand-clr);
+}
+.btn-login {
+    margin-right: 1.6rem;
+    line-height: 1.8;
+}
+.mobile-toggle {
+    display: flex;
+    font-size: 3.6rem;
+    color: var(--color-one);
+    cursor: pointer;
+}
+.btn-close {
+    display: none;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(var(--num-of-grid-columns), 1fr);
+    gap: 0 2rem;
+    padding: var(--section-spacing);
+}
+.hero-content-wrap {
+    grid-column: span var(--num-of-grid-columns);
+    color: var(--color-one);
+}
+.title {
+    font-family: moniker,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.primary-title {
+    font-family: moniker,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 120%;
+}
+.hero-decription {
+    line-height: 3.2rem;
+    margin-top: 2.4rem;
+}
+.hero-btn-grow .btn-light {
+    margin: 2.4rem 2.4rem 0 0;
+    display: inline-flex;
+}
+.hero-btn-grow .btn-light i {
+    align-self: center;
+    margin-right: .8rem;
+}
+.btn-large {
+    padding: 1.6rem 3.2rem;
+    border-radius: 2.8rem;
+}
+.btn-dark {
+    background-color: var(--dark-clr);
+    color: var(--color-one);
+    margin-top: 2.4rem;
+}
+.btn-dark:hover {
+    background-color: #36393f;
+}
