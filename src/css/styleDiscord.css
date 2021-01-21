@@ -209,3 +209,47 @@ body {
  .video-call {
      background-color: var(--off-white-clr);
  }
+.video-call .row {
+    padding-bottom:8rem;
+}
+.video-call .text-group {
+    grid-column: span var(--num-of-grid-columns);
+   /*  width: 100%; */
+    margin-top: 0;
+}
+.video-call .text-group p {
+    margin-top: 2.4rem;
+}
+.video-call .grid-image {
+    width: 100%;
+    grid-column: span var(--num-of-grid-columns);
+    margin-top: 2.4rem;
+}
+
+/* //Download */
+.download {
+    background-color: var(--off-white-clr);
+  /*   position: relative; */
+}
+.download .remove-grid {
+    display: block;
+    padding-top: 0;
+    text-align: center;
+}
+.sparkles {
+    display: inline-block;
+}
+.download h2 {
+    font-size: 2.5rem;
+}
+.btn-brand {
+    background-color: var(--brand-clr);
+    color: var(--color-one);
+    transition: background-color .5s;
+}
+.btn-brand:hover {
+    background-color: #8ea1e1;
+}
+.download .btn-brand {
+    margin-top: 1rem;
+}
