@@ -1,0 +1,31 @@
+:root {
+    --color-one: #ffffff; 
+    --color-Two: #000000; 
+    --font:1.6rem;
+    --primary-clr: #049DD9;
+    --secondary-clr: #03658C;
+    --three-clr: #05C7F2;
+    --four-clr: #05DBF2; 
+    --off-clr: #F2C0A2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
