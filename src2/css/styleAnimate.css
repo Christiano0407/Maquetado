@@ -57,6 +57,7 @@ header {
 }
 .logo a i {
     font-size: 3rem;
+    margin-right: 1rem;
 }
 
 .main-input {
@@ -91,5 +92,18 @@ header {
 }
 
 .nav-list {
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-item a {
+    color: var(--color-base);
+    font-size: 1rem;
+    cursor: pointer;
+}
+.nav-item a:hover {
+    color: var(--secondary-clr);
+}
+.nav-item a img {
+    border-radius: 5rem;
 }
